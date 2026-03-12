@@ -107,21 +107,14 @@ public class XRCursorDriver : NetworkBehaviour
         if (!active)
             return;
 
-        RaycastHit hit;
-        bool has3DHit = rightRayInteractor.TryGetCurrent3DRaycastHit(out hit);
-
-        if (has3DHit)
+        // 1. On essaie de trouver un point d'impact sur un objet 3D physique
+        if (rightRayInteractor.TryGetCurrent3DRaycastHit(out RaycastHit hit))
         {
             transform.position = hit.point;
             return;
         }
 
-        if (rightRayInteractor.TryGetCurrentRaycast(out RaycastHit fallbackHit, out int _, out int _, out bool _))
-        {
-            transform.position = fallbackHit.point;
-            return;
-        }
-
+        // 2. Fallback : Si on ne touche rien, on place le curseur au bout du rayon
         Transform attachTransform = rightRayInteractor.transform;
         transform.position = attachTransform.position + attachTransform.forward * fallbackDistance;
     }
