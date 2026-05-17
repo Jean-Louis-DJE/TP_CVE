@@ -3,6 +3,22 @@
 Projet pédagogique Unity mettant en œuvre un Environnement Virtuel Collaboratif (CVE) multi-plateforme, combinant un casque VR (Oculus) et un téléphone AR dans un espace partagé en réseau.
 
 ---
+## Demo
+Visualisez la vidéo complète sur Drive via le lien suivant : [Lien Drive](https://drive.google.com/file/d/1u8dmrO8PdInpLANFG2MAgMiVtzYW-NCb/view?usp=sharing)
+
+**Instructions de jeu :**
+- Téléchagez le fichier zip du dépôt ou clôner le
+- Allez dans le dossier '**Game**'
+- Lancez l'exécutable Windows '**TP_CVE_RVRA_2.exe**' deux fois au moins afin d'avoir une fenêtre pour chaque player
+- Saisissez un **nom différent pour chaque player** mais **un nom identique pour la session commune** puis cliquez sur le bouton pour rejoindre ou créer une session
+- **Attendez** que le premier player soit connecté avant de connecter les autres
+- Une fois connecté : appuyez **la touche 'p' pour faire apparaitre un cube** / maintenez **'alt (gauche)' pour utiliser le curseur de la souris pour manipuler des objets**, **scrollez pour aller en profondeur avec le curseur**
+- Utilisez les touches de direction pour avancer ou tourner sur vous même
+- /!\ **Attention les objets déjà existants sont des propriétés exclusives partagées entre les players par contre les objets crées avec 'p' peuvent être manipulés par tous les joueurs**
+
+![Demo Visualizer](https://drive.google.com/file/d/1de68ul1DoCiniAlSPPcF7S7CfjcM1pPM/view?usp=sharing)
+---
+
 
 ## Description
 
