@@ -16,7 +16,7 @@ Visualisez la vidéo complète sur Drive via le lien suivant : [Lien Drive](http
 - Utilisez les touches de direction pour avancer ou tourner sur vous même
 - /!\ **Attention les objets déjà existants sont des propriétés exclusives partagées entre les players par contre les objets crées avec 'p' peuvent être manipulés par tous les joueurs**
 
-![Demo Visualizer](https://drive.google.com/file/d/1de68ul1DoCiniAlSPPcF7S7CfjcM1pPM/view?usp=sharing)
+![Demo Visualizer](TP_CVE/assets/cvepic.png)
 ---
 
 
